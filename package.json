@@ -1,0 +1,33 @@
+{
+  "author": {
+    "name": "James Power",
+    "email": "james.bruce.power@gmail.com"
+  },
+  "name": "ssh-aws-completion",
+  "description": "SSH completion for amazon aws load balancers and instances",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/jamesbrucepower/ssh-aws-completion.git"
+  },
+  "main": "./lib/main",
+  "bin": {
+    "ssh-aws-completion": "./bin/ssh-aws-completion"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {
+    "aws-sdk": "latest",
+    "optimist": "latest",
+    "underscore": "latest"
+  },
+  "devDependencies": {
+    "mocha": "latest",
+    "should": "latest",
+    "jscoverage": "latest"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
