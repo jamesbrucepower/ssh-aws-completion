@@ -1,0 +1,13 @@
+#!/bin/bash
+
+USER=$1
+oIFS=${IFS}
+IFS=,
+set -- $2
+PROXY=$8
+HOST=$9
+IFS=${oIFS}
+
+[[ "${PROXY}" = "-" ]] \
+    && nc -X connect ${HOST} $3 \
+    || ssh ${USER}@${PROXY} "nc -X connect ${HOST} $3"
