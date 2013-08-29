@@ -11,10 +11,11 @@
   },
   "main": "./lib/main",
   "bin": {
-    "ssh-aws-completion": "./bin/ssh-aws-completion"
+    "ssh-aws-completion": "./bin/ssh-aws-completion",
+    "ssh-aws-completion-command": "..bin/ssh-aws-completion-command"
   },
   "scripts": {
-    "test": "make test"
+    "test": "mocha"
   },
   "dependencies": {
     "aws-sdk": "latest",
