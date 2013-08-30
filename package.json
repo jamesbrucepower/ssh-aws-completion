@@ -5,14 +5,14 @@
   },
   "name": "ssh-aws-completion",
   "description": "SSH completion for amazon aws load balancers and instances",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "repository": {
     "url": "https://github.com/jamesbrucepower/ssh-aws-completion.git"
   },
   "main": "./lib/main",
   "bin": {
     "ssh-aws-completion": "./bin/ssh-aws-completion",
-    "ssh-aws-completion-command": "..bin/ssh-aws-completion-command"
+    "ssh-aws-completion-command": "./bin/ssh-aws-completion-command"
   },
   "scripts": {
     "test": "mocha"
