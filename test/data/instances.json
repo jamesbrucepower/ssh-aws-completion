@@ -1,0 +1,829 @@
+{
+    "Reservations": [
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "ProductCodes": [],
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "VolumeId": "vol-4c920919",
+                                "Status": "attached",
+                                "AttachTime": "2013-08-30T10:17:17.000Z",
+                                "DeleteOnTermination": true
+                            }
+                        }
+                    ],
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "foobar"
+                        },
+                        {
+                            "Key": "aws:autoscaling:groupName",
+                            "Value": "asg00000001"
+                        }
+                    ],
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-e3342a8f",
+                            "GroupName": "sg0000001"
+                        }
+                    ],
+                    "NetworkInterfaces": [
+                        {
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-e3342a8f",
+                                    "GroupName": "sg0000001"
+                                }
+                            ],
+                            "PrivateIpAddresses": [
+                                {
+                                    "PrivateIpAddress": "10.0.3.151",
+                                    "Primary": true
+                                }
+                            ],
+                            "NetworkInterfaceId": "eni-b47637df",
+                            "SubnetId": "subnet-abcdef12",
+                            "VpcId": "vpc-12345678",
+                            "Description": null,
+                            "OwnerId": "123456789000",
+                            "Status": "in-use",
+                            "macAddress": "06:22:37:e4:a8:a3",
+                            "PrivateIpAddress": "10.0.3.151",
+                            "SourceDestCheck": true,
+                            "Attachment": {
+                                "AttachmentId": "eni-attach-8168c9cd",
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "AttachTime": "2013-08-30T10:17:13.000Z",
+                                "DeleteOnTermination": true
+                            }
+                        }
+                    ],
+                    "InstanceId": "i-b245c7fd",
+                    "ImageId": "ami-7c101f08",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "PrivateDnsName": null,
+                    "PublicDnsName": null,
+                    "StateTransitionReason": null,
+                    "KeyName": "sshkey",
+                    "AmiLaunchIndex": 1,
+                    "InstanceType": "m1.medium",
+                    "LaunchTime": "2013-08-30T10:17:13.000Z",
+                    "Placement": {
+                        "AvailabilityZone": "eu-west-1b",
+                        "GroupName": null,
+                        "Tenancy": "default"
+                    },
+                    "KernelId": "aki-4feec43b",
+                    "Monitoring": {
+                        "State": "enabled"
+                    },
+                    "SubnetId": "subnet-abcdef12",
+                    "VpcId": "vpc-12345678",
+                    "PrivateIpAddress": "10.0.3.151",
+                    "SourceDestCheck": true,
+                    "Architecture": "x86_64",
+                    "RootDeviceType": "ebs",
+                    "RootDeviceName": "/dev/sda1",
+                    "VirtualizationType": "paravirtual",
+                    "ClientToken": "xxx",
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "xxx",
+                        "Id": "xxx"
+                    },
+                    "EbsOptimized": false
+                },
+                {
+                    "ProductCodes": [],
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "VolumeId": "vol-4d920918",
+                                "Status": "attached",
+                                "AttachTime": "2013-08-30T10:17:17.000Z",
+                                "DeleteOnTermination": true
+                            }
+                        }
+                    ],
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "foobar"
+                        },
+                        {
+                            "Key": "aws:autoscaling:groupName",
+                            "Value": "asg00000001"
+                        }
+                    ],
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-e3342a8f",
+                            "GroupName": "sg0000001"
+                        }
+                    ],
+                    "NetworkInterfaces": [
+                        {
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-e3342a8f",
+                                    "GroupName": "sg0000001"
+                                }
+                            ],
+                            "PrivateIpAddresses": [
+                                {
+                                    "PrivateIpAddress": "10.0.3.152",
+                                    "Primary": true
+                                }
+                            ],
+                            "NetworkInterfaceId": "eni-b57637de",
+                            "SubnetId": "subnet-abcdef12",
+                            "VpcId": "vpc-12345678",
+                            "Description": null,
+                            "OwnerId": "123456789000",
+                            "Status": "in-use",
+                            "macAddress": "06:22:37:e4:a8:a4",
+                            "PrivateIpAddress": "10.0.3.152",
+                            "SourceDestCheck": true,
+                            "Attachment": {
+                                "AttachmentId": "eni-attach-8068c9cc",
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "AttachTime": "2013-08-30T10:17:13.000Z",
+                                "DeleteOnTermination": true
+                            }
+                        }
+                    ],
+                    "InstanceId": "i-b145c7fe",
+                    "ImageId": "ami-7c101f08",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "PrivateDnsName": null,
+                    "PublicDnsName": null,
+                    "StateTransitionReason": null,
+                    "KeyName": "sshkey",
+                    "AmiLaunchIndex": 0,
+                    "InstanceType": "m1.medium",
+                    "LaunchTime": "2013-08-30T10:17:13.000Z",
+                    "Placement": {
+                        "AvailabilityZone": "eu-west-1b",
+                        "GroupName": null,
+                        "Tenancy": "default"
+                    },
+                    "KernelId": "aki-4feec43b",
+                    "Monitoring": {
+                        "State": "enabled"
+                    },
+                    "SubnetId": "subnet-abcdef12",
+                    "VpcId": "vpc-12345678",
+                    "PrivateIpAddress": "10.0.3.152",
+                    "SourceDestCheck": true,
+                    "Architecture": "x86_64",
+                    "RootDeviceType": "ebs",
+                    "RootDeviceName": "/dev/sda1",
+                    "VirtualizationType": "paravirtual",
+                    "ClientToken": "xxx",
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "xxx",
+                        "Id": "yyy"
+                    },
+                    "EbsOptimized": false
+                }
+            ],
+            "ReservationId": "r-a8e765e4",
+            "OwnerId": "123456789000",
+            "RequesterId": "123456789012"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "ProductCodes": [],
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "VolumeId": "vol-774c7a22",
+                                "Status": "attached",
+                                "AttachTime": "2013-08-30T10:17:17.000Z",
+                                "DeleteOnTermination": true
+                            }
+                        }
+                    ],
+                    "Tags": [
+                        {
+                            "Key": "aws:autoscaling:groupName",
+                            "Value": "asg00000001"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "foobar"
+                        }
+                    ],
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-e3342a8f",
+                            "GroupName": "sg0000001"
+                        }
+                    ],
+                    "NetworkInterfaces": [
+                        {
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-e3342a8f",
+                                    "GroupName": "sg0000001"
+                                }
+                            ],
+                            "PrivateIpAddresses": [
+                                {
+                                    "PrivateIpAddress": "10.0.1.80",
+                                    "Primary": true
+                                }
+                            ],
+                            "NetworkInterfaceId": "eni-8b7637e0",
+                            "SubnetId": "subnet-01234567",
+                            "VpcId": "vpc-12345678",
+                            "Description": null,
+                            "OwnerId": "123456789000",
+                            "Status": "in-use",
+                            "macAddress": "06:22:37:ef:68:e5",
+                            "PrivateIpAddress": "10.0.1.80",
+                            "SourceDestCheck": true,
+                            "Attachment": {
+                                "AttachmentId": "eni-attach-e6a701aa",
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "AttachTime": "2013-08-30T10:17:14.000Z",
+                                "DeleteOnTermination": true
+                            }
+                        }
+                    ],
+                    "InstanceId": "i-c618838a",
+                    "ImageId": "ami-7c101f08",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "PrivateDnsName": null,
+                    "PublicDnsName": null,
+                    "StateTransitionReason": null,
+                    "KeyName": "sshkey",
+                    "AmiLaunchIndex": 0,
+                    "InstanceType": "m1.medium",
+                    "LaunchTime": "2013-08-30T10:17:14.000Z",
+                    "Placement": {
+                        "AvailabilityZone": "eu-west-1c",
+                        "GroupName": null,
+                        "Tenancy": "default"
+                    },
+                    "KernelId": "aki-4feec43b",
+                    "Monitoring": {
+                        "State": "enabled"
+                    },
+                    "SubnetId": "subnet-01234567",
+                    "VpcId": "vpc-12345678",
+                    "PrivateIpAddress": "10.0.1.80",
+                    "SourceDestCheck": true,
+                    "Architecture": "x86_64",
+                    "RootDeviceType": "ebs",
+                    "RootDeviceName": "/dev/sda1",
+                    "VirtualizationType": "paravirtual",
+                    "ClientToken": "xxx",
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "xxx",
+                        "Id": "xxx"
+                    },
+                    "EbsOptimized": false
+                },
+                {
+                    "ProductCodes": [],
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "VolumeId": "vol-3b4c7a6e",
+                                "Status": "attached",
+                                "AttachTime": "2013-08-30T10:17:18.000Z",
+                                "DeleteOnTermination": true
+                            }
+                        }
+                    ],
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "foobar"
+                        },
+                        {
+                            "Key": "aws:autoscaling:groupName",
+                            "Value": "asg00000001"
+                        }
+                    ],
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-e3342a8f",
+                            "GroupName": "sg0000001"
+                        }
+                    ],
+                    "NetworkInterfaces": [
+                        {
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-e3342a8f",
+                                    "GroupName": "sg0000001"
+                                }
+                            ],
+                            "PrivateIpAddresses": [
+                                {
+                                    "PrivateIpAddress": "10.0.1.78",
+                                    "Primary": true
+                                }
+                            ],
+                            "NetworkInterfaceId": "eni-8a7637e1",
+                            "SubnetId": "subnet-01234567",
+                            "VpcId": "vpc-12345678",
+                            "Description": null,
+                            "OwnerId": "123456789000",
+                            "Status": "in-use",
+                            "macAddress": "06:22:37:ef:68:e4",
+                            "PrivateIpAddress": "10.0.1.78",
+                            "SourceDestCheck": true,
+                            "Attachment": {
+                                "AttachmentId": "eni-attach-e5a701a9",
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "AttachTime": "2013-08-30T10:17:14.000Z",
+                                "DeleteOnTermination": true
+                            }
+                        }
+                    ],
+                    "InstanceId": "i-c718838b",
+                    "ImageId": "ami-7c101f08",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "PrivateDnsName": null,
+                    "PublicDnsName": null,
+                    "StateTransitionReason": null,
+                    "KeyName": "sshkey",
+                    "AmiLaunchIndex": 1,
+                    "InstanceType": "m1.medium",
+                    "LaunchTime": "2013-08-30T10:17:14.000Z",
+                    "Placement": {
+                        "AvailabilityZone": "eu-west-1c",
+                        "GroupName": null,
+                        "Tenancy": "default"
+                    },
+                    "KernelId": "aki-4feec43b",
+                    "Monitoring": {
+                        "State": "enabled"
+                    },
+                    "SubnetId": "subnet-01234567",
+                    "VpcId": "vpc-12345678",
+                    "PrivateIpAddress": "10.0.1.78",
+                    "SourceDestCheck": true,
+                    "Architecture": "x86_64",
+                    "RootDeviceType": "ebs",
+                    "RootDeviceName": "/dev/sda1",
+                    "VirtualizationType": "paravirtual",
+                    "ClientToken": "xxx",
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "xxx",
+                        "Id": "xxx"
+                    },
+                    "EbsOptimized": false
+                }
+            ],
+            "ReservationId": "r-4393760c",
+            "OwnerId": "123456789000",
+            "RequesterId": "123456789012"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "ProductCodes": [],
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "VolumeId": "vol-d64f7983",
+                                "Status": "attached",
+                                "AttachTime": "2013-08-30T10:06:42.000Z",
+                                "DeleteOnTermination": true
+                            }
+                        }
+                    ],
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "foobar"
+                        },
+                        {
+                            "Key": "aws:autoscaling:groupName",
+                            "Value": "asg00000001"
+                        }
+                    ],
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-e3342a8f",
+                            "GroupName": "sg0000001"
+                        }
+                    ],
+                    "NetworkInterfaces": [
+                        {
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-e3342a8f",
+                                    "GroupName": "sg0000001"
+                                }
+                            ],
+                            "PrivateIpAddresses": [
+                                {
+                                    "PrivateIpAddress": "10.0.1.188",
+                                    "Primary": true
+                                }
+                            ],
+                            "NetworkInterfaceId": "eni-38723353",
+                            "SubnetId": "subnet-01234567",
+                            "VpcId": "vpc-12345678",
+                            "Description": null,
+                            "OwnerId": "123456789000",
+                            "Status": "in-use",
+                            "macAddress": "06:22:37:f4:cf:3d",
+                            "PrivateIpAddress": "10.0.1.188",
+                            "SourceDestCheck": true,
+                            "Attachment": {
+                                "AttachmentId": "eni-attach-772c8f3b",
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "AttachTime": "2013-08-30T10:06:39.000Z",
+                                "DeleteOnTermination": true
+                            }
+                        }
+                    ],
+                    "InstanceId": "i-39f0fa76",
+                    "ImageId": "ami-7c101f08",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "PrivateDnsName": null,
+                    "PublicDnsName": null,
+                    "StateTransitionReason": null,
+                    "KeyName": "sshkey",
+                    "AmiLaunchIndex": 0,
+                    "InstanceType": "m1.medium",
+                    "LaunchTime": "2013-08-30T10:06:39.000Z",
+                    "Placement": {
+                        "AvailabilityZone": "eu-west-1c",
+                        "GroupName": null,
+                        "Tenancy": "default"
+                    },
+                    "KernelId": "aki-4feec43b",
+                    "Monitoring": {
+                        "State": "enabled"
+                    },
+                    "SubnetId": "subnet-01234567",
+                    "VpcId": "vpc-12345678",
+                    "PrivateIpAddress": "10.0.1.188",
+                    "SourceDestCheck": true,
+                    "Architecture": "x86_64",
+                    "RootDeviceType": "ebs",
+                    "RootDeviceName": "/dev/sda1",
+                    "VirtualizationType": "paravirtual",
+                    "ClientToken": "xxx",
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "xxx",
+                        "Id": "xxx"
+                    },
+                    "EbsOptimized": false
+                },
+                {
+                    "ProductCodes": [],
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "VolumeId": "vol-cf4f799a",
+                                "Status": "attached",
+                                "AttachTime": "2013-08-30T10:06:42.000Z",
+                                "DeleteOnTermination": true
+                            }
+                        }
+                    ],
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "foobar"
+                        },
+                        {
+                            "Key": "aws:autoscaling:groupName",
+                            "Value": "asg00000001"
+                        }
+                    ],
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-e3342a8f",
+                            "GroupName": "sg0000001"
+                        }
+                    ],
+                    "NetworkInterfaces": [
+                        {
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-e3342a8f",
+                                    "GroupName": "sg0000001"
+                                }
+                            ],
+                            "PrivateIpAddresses": [
+                                {
+                                    "PrivateIpAddress": "10.0.1.189",
+                                    "Primary": true
+                                }
+                            ],
+                            "NetworkInterfaceId": "eni-3f723354",
+                            "SubnetId": "subnet-01234567",
+                            "VpcId": "vpc-12345678",
+                            "Description": null,
+                            "OwnerId": "123456789000",
+                            "Status": "in-use",
+                            "macAddress": "06:22:37:f4:cf:3e",
+                            "PrivateIpAddress": "10.0.1.189",
+                            "SourceDestCheck": true,
+                            "Attachment": {
+                                "AttachmentId": "eni-attach-742c8f38",
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "AttachTime": "2013-08-30T10:06:39.000Z",
+                                "DeleteOnTermination": true
+                            }
+                        }
+                    ],
+                    "InstanceId": "i-38f0fa77",
+                    "ImageId": "ami-7c101f08",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "PrivateDnsName": null,
+                    "PublicDnsName": null,
+                    "StateTransitionReason": null,
+                    "KeyName": "sshkey",
+                    "AmiLaunchIndex": 1,
+                    "InstanceType": "m1.medium",
+                    "LaunchTime": "2013-08-30T10:06:39.000Z",
+                    "Placement": {
+                        "AvailabilityZone": "eu-west-1c",
+                        "GroupName": null,
+                        "Tenancy": "default"
+                    },
+                    "KernelId": "aki-4feec43b",
+                    "Monitoring": {
+                        "State": "enabled"
+                    },
+                    "SubnetId": "subnet-01234567",
+                    "VpcId": "vpc-12345678",
+                    "PrivateIpAddress": "10.0.1.189",
+                    "SourceDestCheck": true,
+                    "Architecture": "x86_64",
+                    "RootDeviceType": "ebs",
+                    "RootDeviceName": "/dev/sda1",
+                    "VirtualizationType": "paravirtual",
+                    "ClientToken": "xxx",
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "xxx",
+                        "Id": "xxx"
+                    },
+                    "EbsOptimized": false
+                }
+            ],
+            "ReservationId": "r-e92b46a6",
+            "OwnerId": "123456789000",
+            "RequesterId": "123456789012"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "ProductCodes": [],
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "VolumeId": "vol-8b9c07de",
+                                "Status": "attached",
+                                "AttachTime": "2013-08-30T10:06:41.000Z",
+                                "DeleteOnTermination": true
+                            }
+                        }
+                    ],
+                    "Tags": [
+                        {
+                            "Key": "aws:autoscaling:groupName",
+                            "Value": "asg00000001"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "foobar"
+                        }
+                    ],
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-e3342a8f",
+                            "GroupName": "sg0000001"
+                        }
+                    ],
+                    "NetworkInterfaces": [
+                        {
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-e3342a8f",
+                                    "GroupName": "sg0000001"
+                                }
+                            ],
+                            "PrivateIpAddresses": [
+                                {
+                                    "PrivateIpAddress": "10.0.3.144",
+                                    "Primary": true
+                                }
+                            ],
+                            "NetworkInterfaceId": "eni-3a723351",
+                            "SubnetId": "subnet-abcdef12",
+                            "VpcId": "vpc-12345678",
+                            "Description": null,
+                            "OwnerId": "123456789000",
+                            "Status": "in-use",
+                            "macAddress": "06:22:37:d3:4a:b3",
+                            "PrivateIpAddress": "10.0.3.144",
+                            "SourceDestCheck": true,
+                            "Attachment": {
+                                "AttachmentId": "eni-attach-90339fdc",
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "AttachTime": "2013-08-30T10:06:38.000Z",
+                                "DeleteOnTermination": true
+                            }
+                        }
+                    ],
+                    "InstanceId": "i-c2e7038c",
+                    "ImageId": "ami-7c101f08",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "PrivateDnsName": null,
+                    "PublicDnsName": null,
+                    "StateTransitionReason": null,
+                    "KeyName": "sshkey",
+                    "AmiLaunchIndex": 0,
+                    "InstanceType": "m1.medium",
+                    "LaunchTime": "2013-08-30T10:06:38.000Z",
+                    "Placement": {
+                        "AvailabilityZone": "eu-west-1b",
+                        "GroupName": null,
+                        "Tenancy": "default"
+                    },
+                    "KernelId": "aki-4feec43b",
+                    "Monitoring": {
+                        "State": "enabled"
+                    },
+                    "SubnetId": "subnet-abcdef12",
+                    "VpcId": "vpc-12345678",
+                    "PrivateIpAddress": "10.0.3.144",
+                    "SourceDestCheck": true,
+                    "Architecture": "x86_64",
+                    "RootDeviceType": "ebs",
+                    "RootDeviceName": "/dev/sda1",
+                    "VirtualizationType": "paravirtual",
+                    "ClientToken": "xxx",
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "xxx",
+                        "Id": "xxx"
+                    },
+                    "EbsOptimized": false
+                },
+                {
+                    "ProductCodes": [],
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "VolumeId": "vol-bb9c07ee",
+                                "Status": "attached",
+                                "AttachTime": "2013-08-30T10:06:42.000Z",
+                                "DeleteOnTermination": true
+                            }
+                        }
+                    ],
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "foobar"
+                        },
+                        {
+                            "Key": "aws:autoscaling:groupName",
+                            "Value": "asg00000001"
+                        }
+                    ],
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-e3342a8f",
+                            "GroupName": "sg0000001"
+                        }
+                    ],
+                    "NetworkInterfaces": [
+                        {
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-e3342a8f",
+                                    "GroupName": "sg0000001"
+                                }
+                            ],
+                            "PrivateIpAddresses": [
+                                {
+                                    "PrivateIpAddress": "10.0.3.145",
+                                    "Primary": true
+                                }
+                            ],
+                            "NetworkInterfaceId": "eni-39723352",
+                            "SubnetId": "subnet-abcdef12",
+                            "VpcId": "vpc-12345678",
+                            "Description": null,
+                            "OwnerId": "123456789000",
+                            "Status": "in-use",
+                            "macAddress": "06:22:37:d3:4a:b4",
+                            "PrivateIpAddress": "10.0.3.145",
+                            "SourceDestCheck": true,
+                            "Attachment": {
+                                "AttachmentId": "eni-attach-91339fdd",
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "AttachTime": "2013-08-30T10:06:38.000Z",
+                                "DeleteOnTermination": true
+                            }
+                        }
+                    ],
+                    "InstanceId": "i-c1e7038f",
+                    "ImageId": "ami-7c101f08",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "PrivateDnsName": null,
+                    "PublicDnsName": null,
+                    "StateTransitionReason": null,
+                    "KeyName": "sshkey",
+                    "AmiLaunchIndex": 1,
+                    "InstanceType": "m1.medium",
+                    "LaunchTime": "2013-08-30T10:06:38.000Z",
+                    "Placement": {
+                        "AvailabilityZone": "eu-west-1b",
+                        "GroupName": null,
+                        "Tenancy": "default"
+                    },
+                    "KernelId": "aki-4feec43b",
+                    "Monitoring": {
+                        "State": "enabled"
+                    },
+                    "SubnetId": "subnet-abcdef12",
+                    "VpcId": "vpc-12345678",
+                    "PrivateIpAddress": "10.0.3.145",
+                    "SourceDestCheck": true,
+                    "Architecture": "x86_64",
+                    "RootDeviceType": "ebs",
+                    "RootDeviceName": "/dev/sda1",
+                    "VirtualizationType": "paravirtual",
+                    "ClientToken": "xxx",
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "xxx",
+                        "Id": "xxx"
+                    },
+                    "EbsOptimized": false
+                }
+            ],
+            "ReservationId": "r-b4aeb1fb",
+            "OwnerId": "123456789000",
+            "RequesterId": "123456789012"
+        }
+    ],
+    "requestId": "01abcdef-1234-abcd-7890-abcdef0123456"
+}
