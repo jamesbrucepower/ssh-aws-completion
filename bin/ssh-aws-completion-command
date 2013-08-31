@@ -10,5 +10,5 @@ HOST=$9
 IFS=${oIFS}
 
 [[ "${PROXY}" = "-" ]] \
-    && nc -X connect ${HOST} ${PORT} \
-    || ssh ${USER}@${PROXY} "nc -X connect ${HOST} ${PORT}"
+    && exec nc -X connect ${HOST} ${PORT} \
+    || exec ssh ${USER}@${PROXY} "nc -X connect ${HOST} ${PORT}"
