@@ -1,6 +1,7 @@
 #!/bin/bash
 
 USER=$1
+PORT=$3
 oIFS=${IFS}
 IFS=,
 set -- $2
@@ -9,5 +10,5 @@ HOST=$9
 IFS=${oIFS}
 
 [[ "${PROXY}" = "-" ]] \
-    && nc -X connect ${HOST} $3 \
-    || ssh ${USER}@${PROXY} "nc -X connect ${HOST} $3"
+    && nc -X connect ${HOST} ${PORT} \
+    || ssh ${USER}@${PROXY} "nc -X connect ${HOST} ${PORT}"
