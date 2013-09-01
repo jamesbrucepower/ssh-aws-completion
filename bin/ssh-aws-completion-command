@@ -9,6 +9,8 @@ PROXY=$8
 HOST=$9
 IFS=${oIFS}
 
-[[ "${PROXY}" = "-" ]] \
-    && exec nc -X connect ${HOST} ${PORT} \
-    || exec ssh ${USER}@${PROXY} "nc -X connect ${HOST} ${PORT}"
+if [[ "${PROXY}" = "-" ]] ; then
+	exec nc -X connect ${HOST} ${PORT}
+else
+    exec ssh ${USER}@${PROXY} "nc -X connect ${HOST} ${PORT}"
+fi
