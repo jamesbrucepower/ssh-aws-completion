@@ -19,5 +19,7 @@ Add the following to your .ssh/config file
 
 ```
 Host %*
-    ProxyCommand ssh-aws-completion-command %r %h %p	
+    User [USER]													# [USER] is the name of the destination server user
+    StrictHostKeyChecking no
+    ProxyCommand ssh-aws-completion-command [PROXY-USER] %h %p	# replace [PROXY-USER] with the the name of the proxy user
 ```
