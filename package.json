@@ -5,7 +5,7 @@
   },
   "name": "ssh-aws-completion",
   "description": "SSH completion for amazon aws load balancers and instances",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "repository": {
     "url": "https://github.com/jamesbrucepower/ssh-aws-completion.git"
   },
