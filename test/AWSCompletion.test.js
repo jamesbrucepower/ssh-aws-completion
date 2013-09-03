@@ -47,34 +47,33 @@ describe('AWSCompletion', function() {
         it('should fetch instance meta for a list of instances', function (done) {
            var data = JSON.parse(fs.readFileSync(__dirname + '/data/instances.json'));
 
+            var result = {
+                "PrivateIpAddress": "10.0.3.151",
+                "SubnetId": "subnet-abcdef12",
+                "VpcId": "vpc-12345678",
+                "Tags": [{
+                    "Key": "Name",
+                    "Value": "foobar"
+                }, {
+                    "Key": "aws:autoscaling:groupName",
+                    "Value": "asg00000001"
+                }],
+                "Placement": {
+                    "AvailabilityZone": "eu-west-1b",
+                    "GroupName": null,
+                    "Tenancy": "default"
+                },
+                "LaunchTime": "2013-08-30T10:17:13.000Z",
+                "State": {
+                    "Code": 16,
+                    "Name": "running"
+                }
+            };
+
             var instancesStub = sinon.stub(completion.ec2, 'describeInstances').callsArgWith(1, null, data);
             completion.getInstancesData({}, null, function(err, options, self) {
                 //console.error(JSON.stringify(completion.instances, 0, 4));
-                completion.instances['i-b245c7fd'].should.eql({
-                    "PrivateIpAddress": "10.0.3.151",
-                    "SubnetId": "subnet-abcdef12",
-                    "VpcId": "vpc-12345678",
-                    "Tags": [
-                        {
-                          "Key": "Name",
-                          "Value": "foobar"
-                        },
-                        {
-                          "Key": "aws:autoscaling:groupName",
-                          "Value": "asg00000001"
-                        }
-                    ],
-                    "Placement": {
-                        "AvailabilityZone": "eu-west-1b",
-                        "GroupName": null,
-                        "Tenancy": "default"
-                    },
-                    "LaunchTime": "2013-08-30T10:17:13.000Z",
-                    "State": {
-                        "Code": 16,
-                        "Name": "running"
-                    }
-                });
+                completion.instances['i-b245c7fd'].should.eql(result);
                 _.size(completion.instances).should.equal(8);
                 done(err);
             }) 
