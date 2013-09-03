@@ -3,7 +3,14 @@ SSH Amazon Web Services Bash Completion
 
 Bash completion for ssh for Amazon AWS load balancers and instances
 
+Pre-requisites
+--------------
+
+1) Make sure NODE_PATH env variable is defined and points to your shared NPM node_modules
+2) Make sure your shared NPM modules bin directory is added to your path, typically /usr/local/share/npm/bin
+
 Installation
+------------
 
 ```
 npm install -g ssh-aws-completion
