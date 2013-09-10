@@ -23,11 +23,13 @@ Add the following to your bash profile
 complete -C ssh-aws-completion ssh
 ```
 
-Add the following to your .ssh/config file
+Add the following to your .ssh/config file, replacing
+* [USER] with the name of the default destination server username (can still be overridden by user@host)
+* [PROXY-USER] with the name of the proxy user
 
 ```
 Host %*
-    User [USER]													# [USER] is the name of the destination server user
+    User [USER]
     StrictHostKeyChecking no
-    ProxyCommand ssh-aws-completion-command [PROXY-USER] %h %p	# replace [PROXY-USER] with the the name of the proxy user
+    ProxyCommand ssh-aws-completion-command [PROXY-USER] %h %p
 ```
