@@ -33,3 +33,19 @@ Host %*
     StrictHostKeyChecking no
     ProxyCommand ssh-aws-completion-command [PROXY-USER] %h %p
 ```
+
+Usage
+-----
+
+Get a complete list of all load balancers
+```
+ssh %[TAB]   
+```
+
+Once you have an individual load balancer completed, it will TAB complete on individual hosts
+
+Get a complete list of all instances
+``
+ssh ^[TAB]
+```
+
