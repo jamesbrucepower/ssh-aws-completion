@@ -45,7 +45,7 @@ ssh %[TAB]
 Once you have an individual load balancer completed, it will TAB complete on individual hosts
 
 Get a complete list of all instances
-``
+```
 ssh ^[TAB]
 ```
 
