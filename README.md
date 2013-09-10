@@ -6,9 +6,9 @@ Bash completion for ssh for Amazon AWS load balancers and instances
 Pre-requisites
 --------------
 
-1) You need a recent version of node.js (and npm, which in recent versions is packages with node)
-2) Make sure your installation of node.js setup the NODE_PATH env variable and it points to your shared NPM node_modules
-3) Make sure your shared NPM modules bin directory is added to your path, typically /usr/local/share/npm/bin, but sometimes /usr/share/npm/bin (depending on your distribution of node)
+1. You need a recent version of node.js (and npm, which in recent versions is packages with node)
+2. Make sure your installation of node.js setup the NODE_PATH env variable and it points to your shared NPM node_modules
+3. Make sure your shared NPM modules bin directory is added to your path, typically /usr/local/share/npm/bin, but sometimes /usr/share/npm/bin (depending on your distribution of node)
 
 Installation
 ------------
